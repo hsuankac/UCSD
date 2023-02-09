@@ -1,0 +1,169 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 7f10c396-c339-4c48-a088-151991220f50)
+
+  (paper "A4")
+
+  (title_block
+    (title "Embedded System")
+    (date "2023-01-22")
+  )
+
+  (lib_symbols
+  )
+
+
+  (text "Connectors\n" (at 198.12 81.28 0)
+    (effects (font (size 2.032 2.032) (thickness 0.4064) bold) (justify left bottom))
+    (uuid 0471a298-9c72-4987-a625-6c778a888530)
+  )
+  (text "Sensors\n" (at 99.06 81.28 0)
+    (effects (font (size 2.032 2.032) (thickness 0.4064) bold) (justify left bottom))
+    (uuid 27b33e1f-a2db-4c19-a759-306c5ffbdeb4)
+  )
+  (text "RF Modules\n" (at 147.32 81.28 0)
+    (effects (font (size 2.032 2.032) (thickness 0.4064) bold) (justify left bottom))
+    (uuid 3eda33b4-6d4b-40ba-afaa-2ecd1da03fe2)
+  )
+  (text "Main Page\n" (at 220.98 175.26 0)
+    (effects (font (size 2.032 2.032) (thickness 0.4064) bold) (justify left bottom))
+    (uuid 58977495-a7c6-48b1-9f41-3944be328bc0)
+  )
+  (text "Microcontroller" (at 43.18 81.28 0)
+    (effects (font (size 2.032 2.032) (thickness 0.4064) bold) (justify left bottom))
+    (uuid c724c359-1b06-48bc-b367-a7b346aed8e4)
+  )
+  (text "Mixed\n" (at 248.92 81.28 0)
+    (effects (font (size 2.032 2.032) (thickness 0.4064) bold) (justify left bottom))
+    (uuid e8457129-33e7-4971-baf2-68e55323bebe)
+  )
+
+  (sheet (at 88.9 50.8) (size 35.56 60.96) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 3d195a34-83c8-4427-bf5d-adecf934f31d)
+    (property "Sheet name" "P3_Sensors" (id 0) (at 88.9 50.0884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "P3_Sensors.kicad_sch" (id 1) (at 88.9 112.3446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 190.5 50.8) (size 35.56 60.96) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 445915f7-3655-4526-aa83-1b2c6d0c5ef4)
+    (property "Sheet name" "P5_Connectors" (id 0) (at 190.5 50.0884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "P5_Connectors.kicad_sch" (id 1) (at 190.5 112.3446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 137.16 50.8) (size 35.56 60.96) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 488ae132-52db-4b6e-ae90-2f6c7b50b897)
+    (property "Sheet name" "P4_RF_Modules" (id 0) (at 137.16 50.0884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "P4_RF_Modules.kicad_sch" (id 1) (at 137.16 112.3446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 35.56 50.8) (size 35.56 60.96) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 5404365e-a94c-431c-82c5-721ff2e93757)
+    (property "Sheet name" "P2_uController" (id 0) (at 35.56 50.0884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "P2_uController.kicad_sch" (id 1) (at 35.56 112.3446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 238.76 50.8) (size 35.56 60.96) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 83b25d44-ed63-4f8e-933e-20fc27f4d5c0)
+    (property "Sheet name" "P6_Mix" (id 0) (at 238.76 50.0884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "P6_Mix.kicad_sch" (id 1) (at 238.76 112.3446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/5404365e-a94c-431c-82c5-721ff2e93757" (page "2"))
+    (path "/3d195a34-83c8-4427-bf5d-adecf934f31d" (page "3"))
+    (path "/488ae132-52db-4b6e-ae90-2f6c7b50b897" (page "4"))
+    (path "/445915f7-3655-4526-aa83-1b2c6d0c5ef4" (page "5"))
+    (path "/83b25d44-ed63-4f8e-933e-20fc27f4d5c0" (page "6"))
+  )
+
+  (symbol_instances
+    (path "/3d195a34-83c8-4427-bf5d-adecf934f31d/a1b6c3b9-74bd-4563-ae36-be6a5cde4b56"
+      (reference "#PWR01") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/3d195a34-83c8-4427-bf5d-adecf934f31d/008abdd7-63dd-4cb8-bef3-dae34850e47b"
+      (reference "#PWR02") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/3d195a34-83c8-4427-bf5d-adecf934f31d/0a9bb66e-5576-4e7e-a706-cb1ae7ad99d6"
+      (reference "#PWR03") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/3d195a34-83c8-4427-bf5d-adecf934f31d/0aae4663-647d-405f-8b73-5431138c5684"
+      (reference "#PWR04") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/3d195a34-83c8-4427-bf5d-adecf934f31d/95ea4e23-67f0-4b71-9739-806cb8c06099"
+      (reference "#PWR05") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/3d195a34-83c8-4427-bf5d-adecf934f31d/7f90b60b-6556-4d38-b42d-f9c79a3af3b8"
+      (reference "#PWR06") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/3d195a34-83c8-4427-bf5d-adecf934f31d/b3ddbfe9-5913-4317-8f79-bc05eda53d06"
+      (reference "#PWR07") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/3d195a34-83c8-4427-bf5d-adecf934f31d/43c76d2c-44a9-42a1-aa28-046924e512d9"
+      (reference "#PWR08") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/3d195a34-83c8-4427-bf5d-adecf934f31d/ed55cce5-622d-4c24-acdd-5d552f945bfc"
+      (reference "#PWR09") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/3d195a34-83c8-4427-bf5d-adecf934f31d/abb9e6ab-b920-4ba2-8e63-dd5b8ad2e88a"
+      (reference "C16") (unit 1) (value "10uf") (footprint "")
+    )
+    (path "/3d195a34-83c8-4427-bf5d-adecf934f31d/5fb03b76-4c21-45fb-afaf-7c3a8524b8a8"
+      (reference "C17") (unit 1) (value "0.1uF") (footprint "")
+    )
+    (path "/3d195a34-83c8-4427-bf5d-adecf934f31d/f228463f-2b65-41d2-bfd3-a8a9a501b1ca"
+      (reference "C46") (unit 1) (value "10uf") (footprint "")
+    )
+    (path "/3d195a34-83c8-4427-bf5d-adecf934f31d/7c830530-77bf-40ea-a7c7-4936984a43c7"
+      (reference "C74") (unit 1) (value "0.1uF") (footprint "")
+    )
+    (path "/3d195a34-83c8-4427-bf5d-adecf934f31d/52acb704-1834-4126-9533-6f15bf6692a3"
+      (reference "R6") (unit 1) (value "0R") (footprint "")
+    )
+    (path "/3d195a34-83c8-4427-bf5d-adecf934f31d/84fdb489-8abd-4f54-af4a-426b13cd3261"
+      (reference "R13") (unit 1) (value "0R") (footprint "")
+    )
+    (path "/3d195a34-83c8-4427-bf5d-adecf934f31d/25515708-5630-4607-a411-10694312259b"
+      (reference "R67") (unit 1) (value "10k") (footprint "")
+    )
+    (path "/5404365e-a94c-431c-82c5-721ff2e93757/9a1838be-22e5-4c96-af63-86b6e4e4a81c"
+      (reference "U1") (unit 1) (value "STM32L475VGTx") (footprint "Package_QFP:LQFP-100_14x14mm_P0.5mm")
+    )
+    (path "/3d195a34-83c8-4427-bf5d-adecf934f31d/505cf75c-e650-44d0-b655-20db28e81976"
+      (reference "U2") (unit 1) (value "Mic") (footprint "Sensor_Audio:Knowles_LGA-5_3.5x2.65mm")
+    )
+    (path "/3d195a34-83c8-4427-bf5d-adecf934f31d/55c12d7b-470a-4ef9-9984-948d2557afb5"
+      (reference "U10") (unit 1) (value "Mic") (footprint "Sensor_Audio:Knowles_LGA-5_3.5x2.65mm")
+    )
+  )
+)
