@@ -1,3 +1,9 @@
 (sym_lib_table
   (lib (name "MySymLib_HC")(type "KiCad")(uri "${KIPRJMOD}/MySymLib_HC.kicad_sym")(options "")(descr ""))
+  (lib (name "VL53L0X")(type "KiCad")(uri "${KIPRJMOD}/VL53L0X.kicad_sym")(options "")(descr ""))
+  (lib (name "HTS221")(type "KiCad")(uri "${KIPRJMOD}/HTS221.kicad_sym")(options "")(descr ""))
+  (lib (name "LPS22HB")(type "KiCad")(uri "${KIPRJMOD}/LPS22HB.kicad_sym")(options "")(descr ""))
+  (lib (name "TC2050-IDC-NL")(type "KiCad")(uri "${KIPRJMOD}/TC2050-IDC-NL.kicad_sym")(options "")(descr ""))
+  (lib (name "TSW-102-07-G-S")(type "KiCad")(uri "${KIPRJMOD}/TSW-102-07-G-S.kicad_sym")(options "")(descr ""))
+  (lib (name "SNT-100-BK-G")(type "KiCad")(uri "${KIPRJMOD}/SNT-100-BK-G.kicad_sym")(options "")(descr ""))
 )
