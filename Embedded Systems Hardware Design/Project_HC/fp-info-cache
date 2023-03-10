@@ -1,4 +1,4 @@
-20954010469192657
+20959044912336926
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -53619,6 +53619,13 @@ heatsink
 0
 2
 1
+ISM43362-M3G-L44
+INVENTEK_ISM43362-M3G-L44-E_C2.5.0.3_SPI
+
+
+0
+44
+44
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
@@ -58603,6 +58610,13 @@ LGA10R50P2X3_200X200X80
 0
 10
 10
+LT1963EST-3
+SOT230P700X180-4N
+
+
+0
+4
+4
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -80422,6 +80436,13 @@ Samtec-SNT-100-BK-G-MFG
 0
 0
 0
+SPSGRF-868
+XCVR_SPSGRF-868
+
+
+0
+11
+11
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf

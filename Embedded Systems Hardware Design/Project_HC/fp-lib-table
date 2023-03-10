@@ -7,4 +7,6 @@
   (lib (name "SNT-100-BK-G")(type "KiCad")(uri "${KIPRJMOD}/SNT-100-BK-G.pretty")(options "")(descr ""))
   (lib (name "TSV631AILT")(type "KiCad")(uri "${KIPRJMOD}/TSV631AILT.pretty")(options "")(descr ""))
   (lib (name "NX3215SA-32")(type "KiCad")(uri "${KIPRJMOD}/NX3215SA-32.pretty")(options "")(descr ""))
+  (lib (name "ISM43362-M3G-L44")(type "KiCad")(uri "${KIPRJMOD}/ISM43362-M3G-L44.pretty")(options "")(descr ""))
+  (lib (name "LT1963EST-3")(type "KiCad")(uri "${KIPRJMOD}/LT1963EST-3.pretty")(options "")(descr ""))
 )
