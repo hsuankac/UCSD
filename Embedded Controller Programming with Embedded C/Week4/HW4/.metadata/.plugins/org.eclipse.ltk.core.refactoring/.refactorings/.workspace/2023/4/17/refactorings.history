@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;Embedded-C-Assigment-4&apos;" deleteContents="false" description="Delete resource &apos;Embedded-C-Assigment-4&apos;" element1="/Embedded-C-Assigment-4" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1682310176142"/>&#x0A;<refactoring comment="Delete resource &apos;Embedded-C-Assignment-4&apos;" deleteContents="false" description="Delete resource &apos;Embedded-C-Assignment-4&apos;" element1="/Embedded-C-Assignment-4" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1682310269298"/>
+</session>
