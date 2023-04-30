@@ -1,0 +1,10 @@
+12:36:58 **** Incremental Build of configuration Debug for project Embedded-C-Assignment-5 ****
+make -j8 all 
+arm-none-eabi-size   Embedded-C-Assignment-5.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18700	     20	   3340	  22060	   562c	Embedded-C-Assignment-5.elf
+Finished building: default.size.stdout
+ 
+
+12:36:58 Build Finished. 0 errors, 0 warnings. (took 590ms)
+
