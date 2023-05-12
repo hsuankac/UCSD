@@ -1,0 +1,14 @@
+10:47:33 **** Incremental Build of configuration Debug for project Embedded C Assigment 7 ****
+make -j8 all 
+arm-none-eabi-size   Embedded\ C\ Assigment\ 7.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22080	    120	   3624	  25824	   64e0	Embedded C Assigment 7.elf
+Finished building: default.size.stdout
+ 
+10:47:40 **** Incremental Build of configuration Debug for project Embedded C Assigment 7 ****
+make -j8 all 
+arm-none-eabi-size   Embedded\ C\ Assigment\ 7.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22080	    120	   3624	  25824	   64e0	Embedded C Assigment 7.elf
+Finished building: default.size.stdout
+ 
