@@ -1,0 +1,22 @@
+/*
+ * hts221.h
+ *
+ *  Created on: May 20, 2023
+ *      Author: hsuankai.chang
+ */
+
+#ifndef INC_USER_HTS221_H_
+#define INC_USER_HTS221_H_
+
+#define HTS221_CTRL_REG1      (uint8_t)0x20
+
+#define HTS221_PD_BIT          HTS221_BIT(7)
+#define HTS221_BDU_BIT         HTS221_BIT(2)
+#define HTS221_ODR_BIT         HTS221_BIT(0)
+
+#define HTS221_PD_MASK        (uint8_t)0x80
+#define HTS221_BDU_MASK       (uint8_t)0x04
+#define HTS221_ODR_MASK       (uint8_t)0x03
+
+
+#endif /* INC_USER_HTS221_H_ */
