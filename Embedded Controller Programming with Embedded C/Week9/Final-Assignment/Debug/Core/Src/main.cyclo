@@ -1,0 +1,17 @@
+stm32l4xx_ll_gpio.h:1014:22:LL_GPIO_TogglePin	1
+stm32l4xx_ll_utils.h:203:26:LL_GetUID_Word0	1
+stm32l4xx_ll_utils.h:212:26:LL_GetUID_Word1	1
+stm32l4xx_ll_utils.h:221:26:LL_GetUID_Word2	1
+stm32l4xx_ll_utils.h:232:26:LL_GetFlashSize	1
+main.c:90:5:main	7
+main.c:208:6:SystemClock_Config	4
+main.c:269:13:MX_DFSDM1_Init	2
+main.c:307:13:MX_I2C2_Init	4
+main.c:355:13:MX_QUADSPI_Init	2
+main.c:388:13:MX_SPI3_Init	2
+main.c:428:13:MX_USART1_UART_Init	2
+main.c:463:13:MX_USART3_UART_Init	2
+main.c:498:13:MX_USB_OTG_FS_PCD_Init	2
+main.c:533:13:MX_GPIO_Init	1
+main.c:720:6:HAL_GPIO_EXTI_Callback	4
+main.c:740:6:Error_Handler	1
