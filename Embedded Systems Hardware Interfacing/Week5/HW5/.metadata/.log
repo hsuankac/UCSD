@@ -1,0 +1,27 @@
+!SESSION 2023-08-08 22:17:58.951 -----------------------------------------------
+eclipse.buildId=Version 1.12.0
+java.version=11.0.17
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-08-08 22:18:14.613
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-08-08 22:18:14.619
+!MESSAGE Log4j2 initialized with config file C:\learning\UCSD\Embedded Systems Hardware Interfacing\Week5\HW5\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-08-08 22:18:37.098
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-08-08 22:21:14.367
+!MESSAGE Indexed 'Embedded-C-Assignment-5' (32 sources, 91 headers) in 5.43 sec: 8,309 declarations; 58,231 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.003%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-08-08 22:29:34.196
+!MESSAGE Indexed 'Embedded-C-Assignment-5' (67 sources, 142 headers) in 3.25 sec: 14,516 declarations; 79,132 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0021%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-08-08 22:29:39.464
+!MESSAGE Indexed 'Embedded-C-Assignment-5' (67 sources, 142 headers) in 3.6 sec: 14,516 declarations; 79,132 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0021%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-08-08 22:39:28.935
+!MESSAGE Indexed 'Embedded-C-Assignment-5' (66 sources, 141 headers) in 2.68 sec: 14,320 declarations; 77,714 references; 0 unresolved inclusions; 1 syntax errors; 3 unresolved names (0.0033%)
