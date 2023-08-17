@@ -1,0 +1,25 @@
+    .text
+    .global mySquareSum
+
+mySquareSum:
+    @ Initialize variables
+    mov r0, #0
+    mov r1, #1
+    ldr r2, =3
+
+loop:
+    @ Calculate square of r1 and add to accumulator
+    mov r3, r1
+    mul r3, r3, r1
+    add r0, r0, r3
+
+    @ Check if we've squared up to n
+    cmp r1, r2
+    bge done
+
+    @ Increment r1 and loop
+    add r1, r1, #1
+    b loop
+
+done:
+    .end

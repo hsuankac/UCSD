@@ -55,7 +55,7 @@ UART_HandleTypeDef huart3;
 PCD_HandleTypeDef hpcd_USB_OTG_FS;
 
 /* USER CODE BEGIN PV */
-uint32_t timeout = 100;
+uint8_t rx_flag = 0;
 char in[1] = {0};
 /* USER CODE END PV */
 
@@ -693,7 +693,13 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
-
+void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
+{
+	 if(huart1.Instance == USART1)
+	 {
+		 rx_flag = 1;
+	 }
+}
 /* USER CODE END 4 */
 
 /**
