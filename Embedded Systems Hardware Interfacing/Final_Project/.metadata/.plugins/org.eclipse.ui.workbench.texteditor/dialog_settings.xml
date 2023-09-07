@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="adc_irq_complete"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="adc_irq_complete"/>
+			<item value="adc_interrupt"/>
+			<item value="HAL_ADC_Start_IT"/>
+			<item value="HAL_Delay"/>
+			<item value="ARD-A0: raw: %f, volts: %f\r\n&quot;, value_avg, voltage);"/>
+			<item value="ARD"/>
+			<item value="adc_polling_average"/>
+			<item value="find_min"/>
+			<item value="HAL_I2C_Master_Receive_IT"/>
+			<item value="status_flag"/>
+			<item value="HAL_I2C_Master_Receive_DMA"/>
+			<item value="data"/>
+			<item value="irq_complete"/>
+			<item value="Auto increment"/>
+			<item value="MAIN"/>
+		</list>
+		<list key="replacehistory">
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="1032"/>
+		<item key="DIALOG_Y_ORIGIN" value="650"/>
+		<item key="DIALOG_WIDTH" value="414"/>
+		<item key="DIALOG_HEIGHT" value="250"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|5|0|Segoe UI"/>
+	</section>
+</section>

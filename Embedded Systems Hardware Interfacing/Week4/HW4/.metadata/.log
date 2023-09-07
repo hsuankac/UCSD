@@ -74,3 +74,24 @@ java.lang.NullPointerException
 	at org.eclipse.cdt.core.CCorePlugin.log(CCorePlugin.java:1576)
 	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:175)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2023-09-01 14:06:40.110 -----------------------------------------------
+eclipse.buildId=Version 1.12.0
+java.version=11.0.17
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-09-01 14:06:56.747
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-09-01 14:06:56.750
+!MESSAGE Log4j2 initialized with config file C:\learning\UCSD\Embedded Systems Hardware Interfacing\Week4\HW4\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-09-01 14:07:04.179
+!MESSAGE Started RMI Server, listening on port 41338
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-09-01 14:53:35.662
+!MESSAGE Indexed 'Embedded-C-Assignment-3' (32 sources, 130 headers) in 6.22 sec: 15,152 declarations; 82,572 references; 3 unresolved inclusions; 46 syntax errors; 171 unresolved names (0.17%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-09-01 15:07:35.052
+!MESSAGE Indexed 'Embedded-C-Assignment-2' (34 sources, 133 headers) in 5.38 sec: 16,051 declarations; 93,401 references; 3 unresolved inclusions; 46 syntax errors; 171 unresolved names (0.16%)

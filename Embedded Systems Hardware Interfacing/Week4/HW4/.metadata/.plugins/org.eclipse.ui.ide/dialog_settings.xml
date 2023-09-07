@@ -7,6 +7,8 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\learning\UCSD\Embedded Systems Hardware Interfacing\Week2\HW2"/>
+			<item value="C:\learning\UCSD\Embedded Systems Hardware Interfacing\Week3\HW3"/>
 			<item value="C:\learning\UCSD\Embedded Systems Hardware Interfacing\Week4\HW4\Embedded-C-Assignment-4"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">

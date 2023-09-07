@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="MX_GPIO_Init"/>
+		<item key="selection" value="In"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="in"/>
+			<item value="rx_flag"/>
+			<item value="tx_flag"/>
 			<item value="MX_GPIO_Init"/>
 			<item value="numOnes"/>
 			<item value="timeout"/>
 			<item value="priority"/>
-			<item value="rx_flag"/>
 			<item value="IRQn_Type"/>
 			<item value="myEnableIntr"/>
 			<item value="snprintf"/>
-			<item value="tx_flag"/>
 			<item value="HAL_GPIO_EXTI_IRQHandler"/>
 			<item value="logGetMsg"/>
 			<item value="AREA"/>
 			<item value="mul"/>
 			<item value="logMsg"/>
-			<item value="HAL_UART_TxCpltCallback"/>
 		</list>
 		<list key="replacehistory">
 		</list>
@@ -30,8 +30,8 @@
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item key="DIALOG_X_ORIGIN" value="1502"/>
 		<item key="DIALOG_Y_ORIGIN" value="318"/>
-		<item key="DIALOG_WIDTH" value="322"/>
-		<item key="DIALOG_HEIGHT" value="391"/>
-		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		<item key="DIALOG_WIDTH" value="414"/>
+		<item key="DIALOG_HEIGHT" value="454"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|5|0|Segoe UI"/>
 	</section>
 </section>
