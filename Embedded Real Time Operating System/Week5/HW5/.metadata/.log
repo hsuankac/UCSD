@@ -1,0 +1,1875 @@
+!SESSION 2023-10-23 21:38:07.518 -----------------------------------------------
+eclipse.buildId=Version 1.12.0
+java.version=11.0.17
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-10-23 21:38:34.668
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-10-23 21:38:34.673
+!MESSAGE Log4j2 initialized with config file C:\learning\UCSD\Embedded Real Time Operating System\Week5\HW5\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-10-23 21:38:44.143
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-10-23 21:46:50.038
+!MESSAGE Indexed 'Embedded-RTOS-Assignment-5' (32 sources, 91 headers) in 5.97 sec: 8,309 declarations; 58,231 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.003%)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.157
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implFlushBuffer(StreamEncoder.java:312)
+	at java.base/sun.nio.cs.StreamEncoder.implFlush(StreamEncoder.java:316)
+	at java.base/sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:153)
+	at java.base/java.io.OutputStreamWriter.flush(OutputStreamWriter.java:251)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:257)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.159
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.160
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.160
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.162
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.164
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.165
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.166
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.167
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.169
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.170
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.171
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.173
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.174
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.176
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.177
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.178
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.180
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.182
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.183
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.185
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.186
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.187
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.188
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.189
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.190
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.191
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.192
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.193
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.195
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.196
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.198
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.199
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.200
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.201
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.202
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.203
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.204
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.205
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.206
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.209
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.210
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.211
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.213
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.214
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.215
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.216
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.217
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.218
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.219
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.220
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.222
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.223
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.224
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.225
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.225
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.226
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.227
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.228
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.229
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.231
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.232
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.233
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.234
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.235
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 2 0 2023-10-23 22:10:24.236
+!MESSAGE Error while determining symbol addresses
+!STACK 0
+java.io.IOException: Code 0xe8: The pipe is being closed.
+
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerOutputStream.write(SpawnerOutputStream.java:51)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:303)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:281)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:208)
+	at java.base/java.io.BufferedWriter.flushBuffer(BufferedWriter.java:120)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:256)
+	at org.eclipse.cdt.utils.Addr2line.getOutput(Addr2line.java:64)
+	at org.eclipse.cdt.utils.Addr2line.getLine(Addr2line.java:72)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$6(StackAnalyzerView.java:908)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:920)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 4 0 2023-10-23 22:10:24.240
+!MESSAGE Stackanalyzer failed to analyze input
+!STACK 0
+java.lang.Exception: File: C:\learning\UCSD\Embedded Real Time Operating System\Week5\HW5\Embedded-RTOS-Assignment-5\Debug\Embedded-RTOS-Assignment-5.elfdo not exists
+	at com.st.stm32cube.ide.mcu.utils.assembly.Disassembler.<init>(Disassembler.java:56)
+	at com.st.stm32cube.ide.mcu.utils.assembly.Disassembler.<init>(Disassembler.java:83)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:954)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1307)
+	at java.base/java.lang.Thread.run(Thread.java:829)
