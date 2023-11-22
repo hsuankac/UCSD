@@ -1,0 +1,10 @@
+22:48:11 **** Incremental Build of configuration Debug for project Embedded-RTOS-Assignment-8 ****
+make -j8 all 
+arm-none-eabi-size   Embedded-RTOS-Assignment-8.elf 
+   text	   data	    bss	    dec	    hex	filename
+  33392	    124	   9164	  42680	   a6b8	Embedded-RTOS-Assignment-8.elf
+Finished building: default.size.stdout
+ 
+
+22:48:12 Build Finished. 0 errors, 0 warnings. (took 1s.105ms)
+
